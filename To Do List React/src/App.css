@@ -1,0 +1,100 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 49vw;
+  border: 1px solid lightgray;
+}
+
+input[type="checkbox"] {
+  width: 50px;
+  accent-color: mediumorchid;
+}
+button {
+  padding: 10px 10px;
+  margin-left: 5px;
+  height: 34px;
+  font-size:16px
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+  width: 60vw;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1px 0;
+  background-color: ghostwhite;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border:1px solid lightgray;
+}
+
+.task-list li.completed,
+.task-list li.completed button {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+button{
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list li button {
+  background-color: transparent;
+  color: black;
+}
+button:hover {
+  opacity: 0.8;
+}
+.task-list span {
+  width: 100%;
+}
