@@ -1,4 +1,4 @@
-const telegramAuthToken =`6565732918:AAEnkmceNENQJ1AbcaArNfU1NxOrYO4b3_8`;
+const telegramAuthToken =`your secret`;
 const webhookEndpoint = "/endpoint";
 addEventListener ("fetch",event=>{
   event.respondWith(handleIncomingRequest(event));
